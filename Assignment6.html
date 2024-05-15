@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Usage Survey Form</title>
+</head>
+<body>
+    <div style="border:1px solid blue">
+    <div>
+    <h1>Internet Usage Survey</h1>
+    <p>This survey is being conducted to help identify the internet usage patterns of our customers. <br>
+    Please take a few moments to complete and submit this short form. Thank you for your cooperation.</p>
+</div>
+<div>
+    <table cellspacing="30px">
+        <tr><td>what type of Internet Connection do you have? <br> (Select One)</td>
+        <td ><select name="Option" id="1" size="4">
+            <option>Dial-Up</option>
+            <option>DSL</option>
+            <option>High Speed Cable</option>
+            <option>Other</option>
+        </select>
+        </td>
+       </tr>
+
+
+        <tr>
+        <td >what type of computer do you use most at home? <br> (Select One)
+        </td>
+        <td >
+            Desktop <input type="Radio" name="device">
+            Laptop <input type="Radio" name="device" >
+        </td>
+        </tr>
+
+        <tr >
+        <td>How would you describe main reason for using the internet? <br> (Select One)
+        </td>
+        <td>
+           <input type="Radio" name="device" style="text-align:center">To do work related activities<br>
+           <input type="Radio" name="device" style="text-align:right">To do school related activities<br>
+           <input type="Radio" name="device" style="text-align:right">for entertainment purposes<br>
+           <input type="Radio" name="device" style="text-align:right">Other Activities 
+        </td>
+        </tr>
+
+        <tr >
+
+        <td>
+            <fieldset size="200px" style="width:500px;">
+            <legend >Types of sites visited:</legend>
+              <p>
+                What types of websites do you access most often? <br>
+              Check all that apply.
+
+              <p>
+              <input type="checkbox" name="WebSites"> self improvement <br>
+              <input type="checkbox" name="WebSites"> Entertainment <br>
+              <input type="checkbox" name="WebSites"> News and Sports <br>
+              <input type="checkbox" name="WebSites"> Reference <br>
+              <input type="checkbox" name="WebSites"> Email <br>
+              </p>
+              
+             </p>
+            </fieldset>
+        </td>
+
+        <td>
+            <fieldset size="200px">
+            <legend >Time spent using internet:</legend>
+              <p>
+                During an average week, how long do you spend online? <br>
+              <p>
+              <input type="radio" name="time"> 0-3 hours <br>
+              <input type="radio" name="time"> 4-6 hours <br>
+              <input type="radio" name="time"> 7-10 hours <br>
+              <input type="radio" name="time"> 11-14 hours <br>
+              <input type="radio" name="time"> 15+ hours <br>
+              </p>
+              </p>
+              
+            </fieldset>
+        </td>
+       </tr>
+    </table>
+    <div style="margin-left:30px;">
+    <p>Please comment on your opinions concerning Internet privacy and safety</p>
+   <textarea name="text" id="2" cols="70" rows="5"></textarea>
+   </div> 
+   
+    <div>       
+   <table cellspacing="30px" style="width: 76%;">
+    <tr>
+        <td>
+            FirstName: <input type="text" size="50">
+       </td>
+       <td>
+            LastName: <input type="text" size="50">
+      </td>
+    </tr>
+    <tr>
+        <td>
+            Age:<input type="text" >
+       </td>
+       <td>
+            ZipCode:<input type="text">
+      </td>
+    </tr>
+   </table>
+  </div>  
+
+  
+   <div style="text-align:center">
+    <button>Click to submit</button>
+    <button>Clear Form</button>
+   </div>
+   
+
+</div>
+</div>
+</body>
+</html>
